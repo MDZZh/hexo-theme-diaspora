@@ -50,7 +50,7 @@ keywords: Fechin
 google_analytics:
 
 # 网站ico
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 # rss文件
 rss: atom.xml
