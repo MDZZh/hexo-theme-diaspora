@@ -149,14 +149,14 @@ audio {
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-mask-image: url("/img/logo.png");
-  background-color: #ff444b;
+  /*background-color: #ff444b;*/
   width: 145px;
   height: 35px;
   mask-image: url("/img/logo.png");
   -webkit-mask-size: 500px;
   transition: background-color 0.5s ease-in-out;
   -webkit-mask-position: -32px -45px;
-  
+
 }
 
 body.mu .image-logo {
@@ -786,7 +786,7 @@ h1.title {
   left: 0;
 }
 
-#preview + canvas {
+canvas {
   display: none;
 }
 
@@ -1201,69 +1201,69 @@ pre .keyword, pre .javascript .function {
     width: 900px;
     margin: 0 auto;
   }
-  
+
   #post0 {
     width: 32%;
   }
-  
+
   #post0 h2 {
     font-size: 24px;
   }
-  
+
   .post {
     width: 900px;
   }
-  
+
   .post > a {
     width: 480px;
     height: 310px;
   }
-  
+
   .else {
     top: 10px;
     width: 420px;
     height: 290px;
   }
-  
+
   .post:nth-child(odd) .else {
     left: 450px;
   }
-  
+
   .post:nth-child(even) .else {
     right: 450px;
   }
-  
+
   .else p:first-child {
     font-size: 12px;
     margin: 50px 0 0 60px;
   }
-  
+
   .else h3 {
     font-size: 24px;
     margin: 10px 60px 0 60px;
   }
-  
+
   .else h3 + p {
     margin: 10px 60px 0 60px;
   }
-  
+
   .here {
     left: 60px;
     bottom: 50px;
   }
-  
+
   .article {
     width: 100%;
   }
-  
+
   .article .main {
     width: 94%;
   }
-  
+
   .article .side {
     display: none
   }
-  
+
   .comment .gt-btn-public .gt-btn-text:after {
     content: "";
   }
@@ -1273,25 +1273,25 @@ pre .keyword, pre .javascript .function {
   #mark {
     height: 480px;
   }
-  
+
   #header > div {
     width: 90%;
   }
-  
+
   #vibrant polygon {
     transform: translateX(-10%);
     -moz-transform: translateX(-10%);
     -webkit-transform: translateX(-10%);
   }
-  
+
   #post0 {
     width: 40%;
   }
-  
+
   #post0 h2 {
     font-size: 20px;
   }
-  
+
   .post {
     width: 100%;
     margin-top: 60px;
@@ -1299,18 +1299,18 @@ pre .keyword, pre .javascript .function {
     padding-bottom: 30px;
     border-bottom: 1px solid #eaeaea;
   }
-  
+
   .post > a {
     display: block;
     margin: 0 auto;
     width: 100%;
     height: auto;
   }
-  
+
   .post > a img {
     margin: 0 auto;
   }
-  
+
   .else {
     height: auto;
     position: static;
@@ -1319,37 +1319,37 @@ pre .keyword, pre .javascript .function {
     background: transparent;
     border: none;
   }
-  
+
   .else p:first-child {
     margin: 30px 0 0 20px;
   }
-  
+
   .else h3 {
     font-size: 24px;
     margin: 10px 30px 0 20px;
   }
-  
+
   .else h3 + p {
     margin: 10px 30px 0 20px;
   }
-  
+
   .here {
     position: static;
     margin: 20px 0 20px 20px;
   }
-  
+
   .article {
     width: 100%;
   }
-  
+
   .article .main {
     width: 94%;
   }
-  
+
   .article .side {
     display: none
   }
-  
+
   .comment .gt-btn-public .gt-btn-text:after {
     content: "";
   }
@@ -1359,76 +1359,76 @@ pre .keyword, pre .javascript .function {
   #header {
     top: 40px;
   }
-  
+
   #vibrant svg {
     display: none;
   }
-  
+
   #vibrant div {
     opacity: 0.3;
   }
-  
+
   #container {
     padding-bottom: 50px;
   }
-  
+
   #post0 {
     bottom: 60px;
     top: auto;
     width: 70%;
     left: 5%;
   }
-  
+
   .menu {
     width: 80%;
     margin: 160px auto 0;
   }
-  
+
   .menu li {
     font-size: 16px;
   }
-  
+
   #pager {
     margin: 30px 0 0;
   }
-  
+
   h1.title {
     font-size: 24px;
   }
-  
+
   .tab {
     display: none;
   }
-  
+
   .icon-scan {
     display: none !important;
   }
-  
+
   .icon-images {
     left: 80px;
   }
-  
+
   .icon-pause, .icon-play {
     left: 50px;
   }
-  
+
   .comment.link {
     width: 140px;
     padding: 5px 0;
   }
-  
+
   .article {
     width: 100%;
   }
-  
+
   .article .main {
     width: 94%;
   }
-  
+
   .article .side {
     display: none
   }
-  
+
   .comment .gt-btn-public .gt-btn-text:after {
     content: "";
   }
@@ -1438,59 +1438,59 @@ pre .keyword, pre .javascript .function {
   #post0 p:first-child {
     display: block;
   }
-  
+
   #container:before {
     display: none;
   }
-  
+
   #post0 h2 {
     text-align: left;
     margin: 0 10px 0 0;
   }
-  
+
   #post0 h2 + p {
     text-align: left;
     margin: 10px 20px 0 0;
     color: #f2f2f2;
     font-size: 14px;
   }
-  
+
   #post0 h2 a {
     color: #fff;
   }
-  
+
   #post0 .summary {
     display: none;
   }
-  
+
   .stuff span {
     margin-right: 10px;
   }
-  
+
   .stuff span:first-child {
     display: none;
   }
-  
+
   .content table {
     font-size: smaller;
   }
-  
+
   .content table tr td {
     padding: 6px;
   }
-  
+
   .article {
     width: 100%;
   }
-  
+
   .article .main {
     width: 94%;
   }
-  
+
   .article .side {
     display: none
   }
-  
+
   .comment .gt-btn-public .gt-btn-text:after {
     content: "";
   }

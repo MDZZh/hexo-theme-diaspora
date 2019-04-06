@@ -250,6 +250,7 @@ $(function() {
             }
             if (swatches['Vibrant']) {
                 $('.icon-menu').css('color', swatches['Vibrant'].getHex())
+                $('a.image-logo').css('background-color', swatches['Vibrant'].getHex())
             }
         })
         if (!cover.t.attr('src')) {
@@ -458,7 +459,7 @@ $(function() {
                             // See Options -> getThumbBoundsFn section of documentation for more info
                             var thumbnail = imgs[index],
                                 pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                                rect = thumbnail.getBoundingClientRect(); 
+                                rect = thumbnail.getBoundingClientRect();
 
                             return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
                         }
@@ -469,7 +470,7 @@ $(function() {
                 return false;
                 break;
               // comment
-            case - 1 != tag.indexOf("comment"): 
+            case - 1 != tag.indexOf("comment"):
                 Diaspora.loading(),
                 comment = $('#gitalk-container');
                 gitalk = new Gitalk({
