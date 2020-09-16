@@ -1,6 +1,6 @@
 <%- partial("_partial/menu", null, {cache: true}) %>
 <div id="container">
-    <%- partial("_partial/screen", null, {cache: true}) %>
+    <%- partial("_partial/screen", null, {cache: false}) %>
     <div id="primary">
         <%- partial('_partial/list', {start: 1}) %>
     </div>
@@ -9,3 +9,7 @@
     <% } %>
 </div>
 <div id="preview"></div>
+<% if (theme.beian.enable && theme.beian.enableFooter){ %>
+	<center><a rel="nofollow" style="color: #666;" href="<%=theme.beian.link%>" target="_blank"><%=theme.beian.beianInfo%></a></center>
+<%}%>
+

@@ -1,4 +1,4 @@
-<% var first = site.posts.sort("date", "desc").eq(0); %>
+<% var first = page.posts.sort("date", "desc").eq(0); %>
 <div id="screen">
     <div id="mark">
         <div class="layer" data-depth="0.4">
@@ -14,7 +14,10 @@
     <div id="header">
         <div>
             <a class="image-logo" href="/"></a>
-            <div class="icon-menu switchmenu"></div>
+			<% if (theme.local_search.enable){ %>
+			<div class="iconfont icon-search switchsearch" href="/search/" title="搜索"></div>
+			<%}%>
+            <div class="iconfont icon-menu switchmenu"></div>
         </div>
     </div>
     <% if ( first ) { %>
